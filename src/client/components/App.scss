@@ -1,32 +1,104 @@
+@import './../styles/variables.scss';
+
 .App {
   text-align: center;
+  // height: 2400px; 
+  // parallax effect
+  // /* The image used */
+  // background-image: url('./kristopher-roller.jpg');
+
+  /* Set a specific height */
+  height: 100vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+
+// .App-logo {
+//   animation: App-logo-spin infinite 20s linear;
+//   height: 80px;
+// }
+
+// .App-header {
+//   background-color: pink;
+//   height: 150px;
+//   padding: 20px;
+//   color: white;
+// }
+
+// .App-title {
+//   font-size: 1.5em;
+// }
+
+// .App-intro {
+//   font-size: large;
+// }
+
+// @keyframes App-logo-spin {
+//   from {
+//     transform: rotate(0deg);
+//   }
+
+//   to {
+//     transform: rotate(360deg);
+//   }
+// }
+
+// .section-wrapper {
+//   margin-left: 10%;
+//   height: 100%;
+//   overflow-y: auto;
+// }
+
+.section-wrapper.parallax {
+  margin-left: 10%;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 1px;
+  perspective-origin-x: 100%;
 }
 
-.App-header {
-  background-color: pink;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.parallax-layer {
+  padding: 80vh 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform-origin-x: 100%;
 }
 
-.App-title {
-  font-size: 1.5em;
+.layer-back {
+  background-image: url('./test.jpg');
+  background-attachment: fixed;
+  // background-position: 0 -17em;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  transform: translateZ(-1px) scale(2);
+  z-index: 1;
+  height: 50%;
+  // background-position: center top;
 }
 
-.App-intro {
-  font-size: large;
+.layer-base {
+  transform: translateZ(0);
+  padding-top: 56vh;
+  // padding-top: 40vh;
+  z-index: 1;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.section-bottom {
+  background-attachment: fixed;
+  background-image: url('./test2.jpeg');
+  background-position: 15% 20%;
+  background-repeat: no-repeat;
+  position: relative;
+  transform: translateZ(-5px) scale(6);
+  transform-style: preserve-3d;
+  z-index: 0;
 }
