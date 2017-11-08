@@ -22,7 +22,12 @@
 }
 
 .about .icon-row i {
+  cursor: pointer;
   font-size: 2em;
+}
+
+.about .icon-row i:hover {
+  color: #57b4c5;
 }
 
 .about .icon-row i:first-child {
