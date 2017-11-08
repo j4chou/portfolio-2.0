@@ -12,9 +12,18 @@ class About extends Component {
   render() {
     return (
       <Element name="about" className="about section">
-        <h1>Jessica Chou</h1>
-        <p>Software Engineer</p>
-        <p>Los Angeles, CA</p>
+        <div className="title">
+          <h1>Jessica Chou</h1>
+          <p>Software Engineer</p>
+          <p>Los Angeles, CA</p>
+          <span class="icon-row">
+            <i class="fa fa-linkedin-square"></i>
+            <i class="fa fa-github-square"></i>
+          </span>
+        </div>
+        <div className="body">
+          This is the body
+        </div>
       </Element>
     )
   }

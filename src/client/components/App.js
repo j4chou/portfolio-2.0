@@ -10,20 +10,35 @@ import About from './About/About';
 import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
 
+import Scroll from 'react-scroll';
+
+var Events     = Scroll.Events;
+var scrollSpy  = Scroll.scrollSpy;
+
 class App extends Component {
+  componentDidMount() {
+      Events.scrollEvent.register('begin', function(to, element) {
+        console.log("begin", arguments);
+      });
+
+      Events.scrollEvent.register('end', function(to, element) {
+        console.log("end", arguments);
+      });
+
+      scrollSpy.update();
+    }
+
   render() {
     return (
       <div className="App">
         <Navbar />
-        <div className="section-wrapper parallax">
+        <div id="bodyContainer" className="section-wrapper parallax">
           <div className="parallax-layer layer-back">
-            This is the background
           </div>
           <div className="parallax-layer layer-base">
-            This is the foreground
-          <About />
-          <Projects />
-          <Contact />
+            <About />
+            <Projects />
+            <Contact />
           </div>
           <div className="parallax-layer section-bottom">
           This is the bottom

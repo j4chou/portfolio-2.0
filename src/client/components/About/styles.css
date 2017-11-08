@@ -2,6 +2,22 @@
   padding-top: 1.5em;
   text-transform: uppercase; }
 
-.about.section p {
+.about.section .title p {
   margin: 0.5em;
   text-transform: uppercase; }
+
+.about.section .title {
+  padding-top: 2.5em; }
+
+.about.section .body {
+  margin-top: 6em; }
+
+.about .icon-row {
+  display: inline-block;
+  margin-top: 0.7em; }
+
+.about .icon-row i {
+  font-size: 2em; }
+
+.about .icon-row i:first-child {
+  margin-right: 0.5em; }
