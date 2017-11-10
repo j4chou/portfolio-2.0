@@ -11,7 +11,7 @@ let Element = Scroll.Element;
 class About extends Component {
 
   render() {
-    
+
     return (
       <Element name="about" className="about section">
         <div className="title">
@@ -28,7 +28,17 @@ class About extends Component {
           </span>
         </div>
         <div className="body">
-          <p>This is the body</p>
+          <p>
+            I am a SoCal native with Chinese and Vietnamese roots. I am a 
+            casual gamer, a food/drink enthusiast, and an aspiring extrovert.
+
+            I am also an alumnus of UC San Diego, with a degree in Psychology 
+            (organizational concentration) and a minor in Business. My main 
+            passion lies in web development where unique challenges present 
+            themselves on a daily basis, which I can solve through creative 
+            thinking and problem solving. Technologies are ever-changing - 
+            meaning, there's always more to learn!
+          </p>
         </div>
       </Element>
     )

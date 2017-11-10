@@ -1,18 +1,21 @@
-.about.section h1 {
-  padding-top: 1.5em;
-  text-transform: uppercase; }
-
-.about.section .title p {
-  margin: 0.5em;
-  text-transform: uppercase; }
-
-.about.section .title {
-  padding-top: 2.5em; }
-
-.about.section .body {
-  margin: 6em auto;
-  text-align: left;
-  width: 50%; }
+.about.section {
+  height: 45vh; }
+  .about.section h1 {
+    padding-top: 1.5em;
+    text-transform: uppercase; }
+  .about.section .title {
+    padding-top: 2.5em; }
+    .about.section .title p {
+      margin: 0.5em;
+      text-transform: uppercase; }
+  .about.section .body {
+    margin: 5em auto;
+    text-align: left;
+    width: 50%; }
+    .about.section .body p {
+      line-height: 1.6em;
+      margin: 0.3em;
+      word-wrap: break-word; }
 
 .about .icon-row {
   display: inline-block;

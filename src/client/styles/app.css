@@ -12,7 +12,7 @@ body {
   font-family: sans-serif; }
 
 h1 {
-  font-size: 2.5em; }
+  font-size: 2.8em; }
 
 h3 {
   font-size: 1.3em; }
@@ -22,6 +22,9 @@ h5 {
 
 h6 {
   font-size: 0.5em; }
+
+p {
+  font-size: 1.2em; }
 
 .section {
   background: rgba(255, 255, 255, 0.6);
