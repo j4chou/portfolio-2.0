@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import './../styles/app.css';
 
@@ -41,7 +40,6 @@ class App extends Component {
             <Contact />
           </div>
           <div className="parallax-layer section-bottom">
-          This is the bottom
           </div>
         </div>
       </div>

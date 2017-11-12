@@ -39,7 +39,7 @@ class Navbar extends Component {
           </Link>
           <Link activeClass="active" containerId="bodyContainer" hashSpy={true} to="projects" spy={true} smooth={true} duration={500} onSetActive={this.handleSetActive}>
             <h3 className="nav-title">Projects</h3>
-            <h5 className="subtitle">What I"ve done</h5>
+            <h5 className="subtitle">What I've done</h5>
           </Link>
           <Link activeClass="active" containerId="bodyContainer" hashSpy={true} to="contact" spy={true} smooth={true} duration={500} onSetActive={this.handleSetActive}>
             <h3 className="nav-title">Contact</h3>

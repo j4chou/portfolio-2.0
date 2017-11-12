@@ -6,8 +6,9 @@
 }
 
 .section-wrapper.parallax {
-  margin-left: 10%;
+  border-left: 1px solid #89bcc4;
   height: 100vh;
+  margin-left: 10%;
   overflow-x: hidden;
   overflow-y: auto;
   perspective: 1px;
@@ -26,7 +27,7 @@
 }
 
 .layer-back {
-  background-image: url('./test.jpg');
+  background-image: url('/assets/bg_top.png');
   background-attachment: fixed;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -34,6 +35,8 @@
   z-index: 1;
   height: 50%;
   width: 100%;
+  // added
+  background-position-y: -15em;
 }
 
 .layer-base {
@@ -44,7 +47,7 @@
 
 .section-bottom {
   background-attachment: fixed;
-  background-image: url('./test2.jpeg');
+  background-image: url('/assets/bg_bottom.png');
   background-repeat: no-repeat;
   background-size: cover;
   transform: translateZ(-5px) scale(6.1);
