@@ -1,0 +1,53 @@
+@import '../../styles/variables.scss';
+
+.projects.section {
+  h1 {
+    font-family: $main-header-font;
+    padding-top: 1em;
+    text-transform: uppercase;
+  }
+  .body {
+    height: 100%;
+    left: 50%;
+    margin-top: 4em;
+    overflow: auto;
+    position: relative;
+    transform: translateX(-50%);
+    width: 60%;
+    .project-list {
+      height: 100%;
+      overflow: auto;
+      width: 100%;
+      .project-image {
+        position: relative;
+        width: 50%;
+        img {
+          width: 100%;
+        }
+      }
+      .project-description {
+        display: inline-block;
+        height: 100%;
+        width: 50%;
+      }
+    }
+    .project-list:nth-child(even) {
+      .project-image {
+        float: left;
+        clear: right;
+      }
+      .project-description {
+        background-color: orange;
+      }
+    }
+    .project-list:nth-child(odd) {
+      .project-image {
+        float: right;
+        clear: left;
+      }
+      .project-description {
+        background-color: pink;
+      }
+    }
+  }
+}

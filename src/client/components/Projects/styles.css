@@ -1,0 +1,36 @@
+.projects.section h1 {
+  font-family: "Barlow Semi Condensed";
+  padding-top: 1em;
+  text-transform: uppercase; }
+
+.projects.section .body {
+  height: 100%;
+  left: 50%;
+  margin-top: 4em;
+  overflow: auto;
+  position: relative;
+  transform: translateX(-50%);
+  width: 60%; }
+  .projects.section .body .project-list {
+    height: 100%;
+    overflow: auto;
+    width: 100%; }
+    .projects.section .body .project-list .project-image {
+      position: relative;
+      width: 50%; }
+      .projects.section .body .project-list .project-image img {
+        width: 100%; }
+    .projects.section .body .project-list .project-description {
+      display: inline-block;
+      height: 100%;
+      width: 50%; }
+  .projects.section .body .project-list:nth-child(even) .project-image {
+    float: left;
+    clear: right; }
+  .projects.section .body .project-list:nth-child(even) .project-description {
+    background-color: orange; }
+  .projects.section .body .project-list:nth-child(odd) .project-image {
+    float: right;
+    clear: left; }
+  .projects.section .body .project-list:nth-child(odd) .project-description {
+    background-color: pink; }

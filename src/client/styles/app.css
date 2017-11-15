@@ -31,6 +31,7 @@ p {
   font-size: 1.2em; }
 
 .section {
-  background: white;
+  background: #f2f7fc;
+  padding: 0.5em;
   position: relative;
   width: 100%; }

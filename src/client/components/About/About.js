@@ -18,7 +18,7 @@ class About extends Component {
           <h1>Jessica Chou</h1>
           <h4>Software Engineer</h4>
           <h4>Los Angeles, CA</h4>
-          <span class="icon-row">
+          <span className="icon-row">
             <a href="http://www.linkedin.com/in/jessicachou1/" key="linkedin">
               <i className="fa fa-linkedin-square"></i>
             </a>

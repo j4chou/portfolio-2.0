@@ -1,18 +1,20 @@
 .navbar {
-  background-color: white;
+  background-color: #f2f7fc;
   height: 100%;
   margin: 0;
   padding: 0;
   position: fixed;
   width: 10%; }
   .navbar h3 {
+    color: #57b4c5;
     font-family: "Barlow";
-    margin-bottom: 0.3em;
+    margin-bottom: 0;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
     transition: font 0.3s ease; }
   .navbar h5 {
+    color: #57b4c5;
     font-family: "Source Sans Pro";
     margin: 0;
     position: relative;
@@ -36,8 +38,8 @@
   text-transform: uppercase;
   width: 100%; }
 
-.navbar .navbar-content > a:hover {
-  color: #57b4c5; }
+.navbar .navbar-content > a:hover h5 {
+  color: #f7c8a1; }
 
 a.active h3 {
   font-size: 1.6em;

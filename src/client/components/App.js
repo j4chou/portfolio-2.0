@@ -15,17 +15,17 @@ var Events     = Scroll.Events;
 var scrollSpy  = Scroll.scrollSpy;
 
 class App extends Component {
-  componentDidMount() {
-      Events.scrollEvent.register('begin', function(to, element) {
-        console.log("begin", arguments);
-      });
+  // componentDidMount() {
+  //     Events.scrollEvent.register('begin', function(to, element) {
+  //       console.log("begin", arguments);
+  //     });
 
-      Events.scrollEvent.register('end', function(to, element) {
-        console.log("end", arguments);
-      });
+  //     Events.scrollEvent.register('end', function(to, element) {
+  //       console.log("end", arguments);
+  //     });
 
-      scrollSpy.update();
-    }
+  //     scrollSpy.update();
+  //   }
 
   render() {
     return (

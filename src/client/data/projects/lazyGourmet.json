@@ -1,0 +1,7 @@
+{
+  "title": "Lazy Gourmet",
+  "url": "https://github.com/j4chou/LazyGourmet",
+  "imagePath": "/assets/projects/lazyGourmet/home.png",
+  "summary": "A web application that uses the Food2Fork API to extract recipes and ingredients based on search input.",
+  "tech": "Technologies used: Node, Express, HTML, CSS, Food2Forks API."
+}

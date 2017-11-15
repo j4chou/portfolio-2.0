@@ -1,21 +1,23 @@
 @import '../../styles/variables.scss';
 
 .navbar {
-  background-color: white;
+  background-color: $main-bg-color;
   height: 100%;
   margin: 0;
   padding: 0;
   position: fixed;
   width: 10%;
   h3 {
+    color: $nav-color;
     font-family: $header-font;
-    margin-bottom: 0.3em;
+    margin-bottom: 0;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
     transition: font 0.3s ease;
   }
   h5 {
+    color: $nav-color;
     font-family: $subhead-font;
     margin: 0;
     position: relative;
@@ -43,8 +45,10 @@
   width: 100%;
 }
 
-.navbar .navbar-content>a:hover {
-  color: #57b4c5;
+.navbar .navbar-content > a:hover {
+  h5 {
+    color: $nav-sub-color;
+  }
 }
 
 a.active {

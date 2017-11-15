@@ -1,5 +1,4 @@
 .about.section {
-  padding: 0.5em;
   top: -8em; }
   .about.section h1,
   .about.section h4 {
@@ -17,25 +16,26 @@
     margin: 3em auto;
     overflow: auto;
     text-align: left;
-    width: 75%; }
+    width: 50%; }
     .about.section .body p {
       line-height: 1.6em;
       word-wrap: break-word;
       width: 45%; }
     .about.section .body img {
+      border: 1px solid #f7ddc8;
       float: right;
       width: 35%; }
 
 .about .icon-row {
   display: inline-block;
   margin-top: 0.7em; }
-
-.about .icon-row i {
-  cursor: pointer;
-  font-size: 2em; }
-
-.about .icon-row i:hover {
-  color: #57b4c5; }
-
-.about .icon-row i:first-child {
-  margin-right: 0.5em; }
+  .about .icon-row i {
+    cursor: pointer;
+    font-size: 2em; }
+  .about .icon-row i:hover,
+  .about .icon-row a:visited {
+    color: #f7c8a1; }
+  .about .icon-row i:first-child {
+    margin-right: 0.5em; }
+  .about .icon-row a:link {
+    color: #57b4c5; }

@@ -11,24 +11,24 @@ var scrollSpy  = Scroll.scrollSpy;
 let Link  = Scroll.Link;
 
 class Navbar extends Component {
-  componentDidMount() {
-      Events.scrollEvent.register('begin', function(to, element) {
-        console.log("begin", arguments);
-      });
+  // componentDidMount() {
+  //     Events.scrollEvent.register('begin', function(to, element) {
+  //       console.log("begin", arguments);
+  //     });
 
-      Events.scrollEvent.register('end', function(to, element) {
-        console.log("end", arguments);
-      });
+  //     Events.scrollEvent.register('end', function(to, element) {
+  //       console.log("end", arguments);
+  //     });
 
-      scrollSpy.update();
-    }
-  componentWillUnmount() {
-    Events.scrollEvent.remove('begin');
-    Events.scrollEvent.remove('end');
-  }
-  handleSetActive(to) {
-     console.log('to', to);
-   }
+  //     scrollSpy.update();
+  //   }
+  // componentWillUnmount() {
+  //   Events.scrollEvent.remove('begin');
+  //   Events.scrollEvent.remove('end');
+  // }
+  // handleSetActive(to) {
+  //    console.log('to', to);
+  //  }
   render() {
     return (
       <div className="navbar">
