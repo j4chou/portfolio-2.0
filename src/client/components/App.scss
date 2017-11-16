@@ -5,8 +5,18 @@
   height: 100vh;
 }
 
+a:link {
+  color: $nav-color;
+  text-decoration-line: none;
+}
+
+a:visited,
+a:hover {
+  color: $visited;
+}
+
 .section-wrapper.parallax {
-  border-left: 1px solid #89bcc4;
+  border-left: 1px solid $nav-border-color;
   height: 100vh;
   margin-left: 10%;
   overflow-x: hidden;

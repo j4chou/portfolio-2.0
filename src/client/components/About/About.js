@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import Scroll from 'react-scroll';
-import {scroller} from 'react-scroll';
 
 import './styles.css';
 import './../../styles/app.css';
@@ -28,7 +27,7 @@ class About extends Component {
           </span>
         </div>
         <div className="body">
-          <img src="/assets/me.png" />
+          <img src="/assets/me.png" alt="self"/>
           <p>
             I am a SoCal native with Chinese and Vietnamese roots. I am a 
             casual gamer, a food/drink enthusiast, and an aspiring extrovert.

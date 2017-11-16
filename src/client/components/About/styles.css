@@ -32,10 +32,7 @@
   .about .icon-row i {
     cursor: pointer;
     font-size: 2em; }
-  .about .icon-row i:hover,
-  .about .icon-row a:visited {
+  .about .icon-row i:hover {
     color: #f7c8a1; }
   .about .icon-row i:first-child {
     margin-right: 0.5em; }
-  .about .icon-row a:link {
-    color: #57b4c5; }

@@ -7,15 +7,18 @@
   height: 100%;
   left: 50%;
   margin-top: 4em;
-  overflow: auto;
   position: relative;
   transform: translateX(-50%);
   width: 60%; }
   .projects.section .body .project-list {
+    align-items: center;
+    background-color: rgba(252, 247, 242, 0.35);
+    border: 2px solid #e8f2fc;
+    display: flex;
     height: 100%;
-    overflow: auto;
     width: 100%; }
     .projects.section .body .project-list .project-image {
+      display: inline-block;
       position: relative;
       width: 50%; }
       .projects.section .body .project-list .project-image img {
@@ -23,14 +26,10 @@
     .projects.section .body .project-list .project-description {
       display: inline-block;
       height: 100%;
+      padding: 0.5em 2em;
+      text-align: left;
       width: 50%; }
-  .projects.section .body .project-list:nth-child(even) .project-image {
-    float: left;
-    clear: right; }
-  .projects.section .body .project-list:nth-child(even) .project-description {
-    background-color: orange; }
-  .projects.section .body .project-list:nth-child(odd) .project-image {
-    float: right;
-    clear: left; }
-  .projects.section .body .project-list:nth-child(odd) .project-description {
-    background-color: pink; }
+      .projects.section .body .project-list .project-description h4 {
+        font-family: "Barlow";
+        text-align: center;
+        text-transform: uppercase; }

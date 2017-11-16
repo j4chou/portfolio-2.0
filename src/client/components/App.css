@@ -2,8 +2,16 @@
   text-align: center;
   height: 100vh; }
 
+a:link {
+  color: #57b4c5;
+  text-decoration-line: none; }
+
+a:visited,
+a:hover {
+  color: #f7c8a1; }
+
 .section-wrapper.parallax {
-  border-left: 1px solid #89bcc4;
+  border-left: 1px solid #8dbdc4;
   height: 100vh;
   margin-left: 10%;
   overflow-x: hidden;

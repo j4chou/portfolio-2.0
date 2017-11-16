@@ -45,14 +45,10 @@
     cursor: pointer;
     font-size: 2em;
   }
-  i:hover,
-  a:visited {
+  i:hover  {
     color: $visited;
   }
   i:first-child {
     margin-right: 0.5em;
-  }
-  a:link {
-    color: $nav-color;
   }
 }
