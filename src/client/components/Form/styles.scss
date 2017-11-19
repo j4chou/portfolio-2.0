@@ -1,0 +1,48 @@
+@import '../../styles/variables.scss';
+
+.field {
+  height: 100%;
+  margin: 0.8em;
+  width: 100%;
+  label {
+    position: absolute;
+    .label-icon {
+      background: orange;
+      height: 1.5em;
+      width: 2em;
+      i {
+        color: white;
+        vertical-align: middle;
+      }
+    }
+  }
+  input,
+  textarea {
+    border: 1px solid #ccc;
+    padding-left: 2.2em;
+    height: 100%;
+    width: 90%;
+  }
+  input:focus,
+  textarea:focus {
+    background: rgba(0, 0, 0, .1);
+    outline: none;
+    transition: background 0.5s ease;
+  }
+  button,
+  input[type=text],
+  textarea[type=text],
+  textarea::placeholder,
+  input::placeholder {
+    font-size: 100%;
+    font-family: $body-font;
+  }
+  textarea {
+    height: 8em;
+    overflow: auto;
+    resize: none;
+  }
+  button {
+
+  }
+}

@@ -1,0 +1,14 @@
+@import '../../styles/variables.scss';
+
+.contact.section {
+  h1 {
+    font-family: $main-header-font;
+    padding-top: 1em;
+    text-transform: uppercase;
+  }
+  .contact-form {
+    display: inline-block;
+    text-align: center;
+    width: 35%;
+  }
+}

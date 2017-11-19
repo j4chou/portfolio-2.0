@@ -1,0 +1,35 @@
+.field {
+  height: 100%;
+  margin: 0.8em;
+  width: 100%; }
+  .field label {
+    position: absolute; }
+    .field label .label-icon {
+      background: orange;
+      height: 1.5em;
+      width: 2em; }
+      .field label .label-icon i {
+        color: white;
+        vertical-align: middle; }
+  .field input,
+  .field textarea {
+    border: 1px solid #ccc;
+    padding-left: 2.2em;
+    height: 100%;
+    width: 90%; }
+  .field input:focus,
+  .field textarea:focus {
+    background: rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: background 0.5s ease; }
+  .field button,
+  .field input[type=text],
+  .field textarea[type=text],
+  .field textarea::placeholder,
+  .field input::placeholder {
+    font-size: 100%;
+    font-family: "Yantramanav"; }
+  .field textarea {
+    height: 8em;
+    overflow: auto;
+    resize: none; }

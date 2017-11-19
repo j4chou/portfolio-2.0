@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Scroll from 'react-scroll';
 import {scroller} from 'react-scroll';
 
+import Form from './../Form/Form';
 import './styles.css';
 import './../../styles/app.css';
 
@@ -12,7 +13,8 @@ class Contact extends Component {
   render() {
     return (
       <Element name="contact" className="contact section">
-        test element Contact section
+        <h1>Get in touch</h1>
+        <Form />
       </Element>
     )
   }
