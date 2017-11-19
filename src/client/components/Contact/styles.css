@@ -1,9 +1,10 @@
-.contact.section h1 {
-  font-family: "Barlow Semi Condensed";
-  padding-top: 1em;
-  text-transform: uppercase; }
-
-.contact.section .contact-form {
-  display: inline-block;
-  text-align: center;
-  width: 35%; }
+.contact.section {
+  top: 10em; }
+  .contact.section h1 {
+    font-family: "Barlow Semi Condensed";
+    padding-top: 1em;
+    text-transform: uppercase; }
+  .contact.section .contact-form {
+    display: inline-block;
+    text-align: center;
+    width: 35%; }

@@ -12,7 +12,7 @@
   width: 60%; }
   .projects.section .body .project-list {
     align-items: center;
-    background-color: rgba(252, 247, 242, 0.35);
+    background-color: #fcfcfc;
     border: 2px solid #e8f2fc;
     display: flex;
     height: 100%;

@@ -7,7 +7,7 @@
   label {
     position: absolute;
     .label-icon {
-      background: orange;
+      background: $nav-color;
       height: 1.5em;
       width: 2em;
       i {
@@ -18,18 +18,17 @@
   }
   input,
   textarea {
-    border: 1px solid #ccc;
+    border: 1px solid $nav-color;
     padding-left: 2.2em;
     height: 100%;
     width: 90%;
   }
   input:focus,
   textarea:focus {
-    background: rgba(0, 0, 0, .1);
+    border: 1px solid $subnav-hover-color;
     outline: none;
-    transition: background 0.5s ease;
+    transition: border 0.5s ease;
   }
-  button,
   input[type=text],
   textarea[type=text],
   textarea::placeholder,
@@ -42,7 +41,28 @@
     overflow: auto;
     resize: none;
   }
-  button {
+}
 
+.field:focus-within {
+  .label-icon {
+    background: $subnav-hover-color;
   }
+}
+
+button {
+  background: $nav-color;
+  border: 1px solid $nav-color;
+  color: $description-bg-color;
+  cursor: pointer;
+  font-size: 100%;
+  font-family: $main-header-font;
+  padding: 0.2em;
+  text-transform: uppercase;
+  width: 5em;
+}
+
+button:hover {
+  background: $subnav-hover-color;
+  border: 1px solid $subnav-hover-color;
+  transition: background 0.3s ease;
 }
