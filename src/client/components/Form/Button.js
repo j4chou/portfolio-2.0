@@ -31,10 +31,9 @@ class Button extends Component {
         "reply_to": this.props.formValues.email,
         "message_html": this.props.formValues.message
       })
-      .then(function(resp) {
-        this.setState({ isClicked: true });
-      })
-      .bind(this);
+      // .then(function(resp) {
+      //   this.setState({ isClicked: true });
+      // })
     } else {
       console.log('something not vlaid')
     }
