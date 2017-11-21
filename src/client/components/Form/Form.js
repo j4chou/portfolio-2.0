@@ -25,12 +25,14 @@ class Form extends Component {
         <Field
           placeholder="Name"
           onChange={(event) => this.updateField('name', event.target.value)}
+          type='text'
           value={this.state.name}
           icon="fa fa-user"
         />
         <Field
           placeholder="Email"
           onChange={(event) => this.updateField('email', event.target.value)}
+          type='email'
           value={this.state.email}
           icon="fa fa-envelope"
         />

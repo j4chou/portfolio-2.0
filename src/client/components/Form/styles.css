@@ -23,6 +23,7 @@
     outline: none;
     transition: border 0.5s ease; }
   .field input[type=text],
+  .field input[type=email],
   .field textarea[type=text],
   .field textarea::placeholder,
   .field input::placeholder {

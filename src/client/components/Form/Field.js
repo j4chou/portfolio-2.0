@@ -14,12 +14,14 @@ const Field = (props) => (
         value={props.value} 
         onChange={props.onChange}
         type='text'
+        required
         /> :
       <input
         onChange={props.onChange}
-        type='text'
+        type={props.type}
         value={props.value}
         placeholder={props.placeholder}
+        required
       />
     }
   </div>
