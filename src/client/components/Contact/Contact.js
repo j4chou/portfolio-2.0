@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import Scroll from 'react-scroll';
-import {scroller} from 'react-scroll';
 
 import Form from './../Form/Form';
 import './styles.css';
