@@ -11,6 +11,45 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Yantramanav"; }
+  @media all and (max-width: 1280px) {
+    body {
+      font-size: 80%; }
+      body .about.section .body {
+        padding-top: 0;
+        width: 90%; }
+        body .about.section .body p {
+          width: 57%; } }
+  @media all and (max-width: 980px) {
+    body {
+      font-size: 70%; }
+      body .about.section .body {
+        padding-top: 0;
+        width: 90%; }
+        body .about.section .body p {
+          width: 57%; } }
+  @media all and (max-width: 736px) {
+    body {
+      font-size: 50%; }
+      body .layer-back {
+        background-position-y: -4em; }
+      body .navbar h3 {
+        text-transform: lowercase;
+        transition: none; }
+      body .navbar h5 {
+        display: none; }
+      body .about.section .body {
+        padding-top: 0;
+        width: 90%; }
+        body .about.section .body p {
+          width: 57%; }
+      body .projects.section .body {
+        margin-top: 2em;
+        padding-bottom: 2em;
+        width: 92%; }
+      body .contact.section {
+        top: 0em; }
+        body .contact.section .contact-form {
+          width: 60%; } }
   @media all and (max-width: 480px) {
     body {
       font-size: 50%; }
@@ -22,6 +61,7 @@ body {
       body .navbar h5 {
         display: none; }
       body .about.section .body {
+        padding-top: 0;
         width: 90%; }
         body .about.section .body p {
           width: 57%; }
