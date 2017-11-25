@@ -14,6 +14,8 @@ body {
   @media all and (max-width: 1280px) {
     body {
       font-size: 80%; }
+      body .parallax-layer.section-bottom {
+        transform: translateZ(-4px) scale(5); }
       body .about.section .body {
         padding-top: 0;
         width: 90%; }

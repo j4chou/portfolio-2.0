@@ -53,6 +53,7 @@
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
     "test": "node scripts/test.js --env=jsdom"
   },
+  "homepage": "https://j4chou.github.io/",
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.{js,jsx}"

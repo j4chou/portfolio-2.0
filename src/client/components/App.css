@@ -33,12 +33,12 @@ a:hover {
   background-image: url("/assets/bg_top.png");
   background-attachment: fixed;
   background-size: 100% 100%;
+  background-position-y: -15em;
   background-repeat: no-repeat;
   transform: translateZ(-1px) scale(2.1);
   z-index: 1;
   height: 50%;
-  width: 100%;
-  background-position-y: -15em; }
+  width: 100%; }
 
 .layer-base {
   transform: translateZ(0);
