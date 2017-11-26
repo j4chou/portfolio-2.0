@@ -57,8 +57,11 @@ body {
       font-size: 45%; }
       body .about.section {
         top: 0; }
+      body .layer-base {
+        padding-top: 0; }
+      body .parallax-layer.layer-back,
       body .parallax-layer.section-bottom {
-        background-image: none; }
+        display: none; }
       body .navbar h3 {
         text-transform: lowercase;
         transition: none; }

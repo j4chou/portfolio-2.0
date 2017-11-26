@@ -80,8 +80,12 @@ body {
     .about.section {
       top: 0;
     }
+    .layer-base {
+      padding-top: 0;
+    }
+    .parallax-layer.layer-back,
     .parallax-layer.section-bottom {
-      background-image: none;
+      display: none;
     }
     .navbar {
       h3 {
