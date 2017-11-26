@@ -54,9 +54,11 @@ body {
           width: 60%; } }
   @media all and (max-width: 480px) {
     body {
-      font-size: 50%; }
-      body .layer-back {
-        background-position-y: -4em; }
+      font-size: 45%; }
+      body .about.section {
+        top: 0; }
+      body .parallax-layer.section-bottom {
+        background-image: none; }
       body .navbar h3 {
         text-transform: lowercase;
         transition: none; }

@@ -76,9 +76,12 @@ body {
   }
 
   @media all and (max-width: 480px) {
-    font-size: 50%;
-    .layer-back {
-      background-position-y: -4em;
+    font-size: 45%;
+    .about.section {
+      top: 0;
+    }
+    .parallax-layer.section-bottom {
+      background-image: none;
     }
     .navbar {
       h3 {
