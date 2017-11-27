@@ -23,17 +23,23 @@ body {
           width: 57%; } }
   @media all and (max-width: 980px) {
     body {
-      font-size: 70%; }
+      font-size: 82%; }
       body .about.section .body {
         padding-top: 0;
         width: 90%; }
         body .about.section .body p {
-          width: 57%; } }
+          width: 57%; }
+      body .contact.section {
+        top: 0; }
+      body .projects.section .body {
+        width: 92%; }
+      body .navbar {
+        font-size: 75%; } }
   @media all and (max-width: 736px) {
     body {
-      font-size: 50%; }
-      body .layer-back {
-        background-position-y: -4em; }
+      font-size: 65%; }
+      body .about.section {
+        margin-bottom: 0; }
       body .navbar h3 {
         text-transform: lowercase;
         transition: none; }
@@ -54,7 +60,7 @@ body {
           width: 60%; } }
   @media all and (max-width: 480px) {
     body {
-      font-size: 45%; }
+      font-size: 60%; }
       body .about.section {
         top: 0; }
       body .layer-base {
@@ -62,11 +68,13 @@ body {
       body .parallax-layer.layer-back,
       body .parallax-layer.section-bottom {
         display: none; }
-      body .navbar h3 {
-        text-transform: lowercase;
-        transition: none; }
-      body .navbar h5 {
-        display: none; }
+      body .navbar {
+        font-size: 70%; }
+        body .navbar h3 {
+          text-transform: lowercase;
+          transition: none; }
+        body .navbar h5 {
+          display: none; }
       body .about.section .body {
         padding-top: 0;
         width: 90%; }
