@@ -16,14 +16,14 @@ body {
   padding: 0;
   font-family: $body-font;
 
-  // @media all and (min-width: $largeDesktop) {
-  //   .parallax-layer.layer-back {
-  //     background-position-y: -10em;
-  //   }
-  //   .section-bottom {
-  //       margin-top: 10em;
-  //   }
-  // }
+  @media all and (min-width: $largeDesktop) {
+    .parallax-layer.layer-back {
+      background-position-y: -5em;
+    }
+    .section-bottom {
+        margin-top: 20em;
+    }
+  }
 
   @media all and (max-width: $desktop) {
     font-size: 80%;
